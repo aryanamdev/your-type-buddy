@@ -8,6 +8,7 @@
     <title>Your Typing Master</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome">
 </head>
 
 <body>
@@ -15,6 +16,7 @@
         <div class="metrics">
             <div class="numbers">
                 <div class="">
+                    <h2 class="heading">Your Typing buddy!</h2>
                 </div>
             </div>
 
@@ -25,8 +27,11 @@
         </div>
         <div class="typing-space">
             <textarea name="" placeholder="Start typing..." id="input" cols="60" maxlength="" rows="10"></textarea>
-            <button id="start-btn">
+            <button id="start-btn" class="btn">
                 Start
+            </button>
+            <button id="restart-btn" class="btn"> <i class="fa-solid fa-repeat"></i>
+                Restart
             </button>
         </div>
     </div>

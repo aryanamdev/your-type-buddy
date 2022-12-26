@@ -44,17 +44,17 @@ body {
   width: 50%;
   text-align: center;
 }
-.numbers {
+/* .numbers {
   flex-direction: row;
   background-color: rgb(209, 132, 0);
   padding: 1em 3em;
   border-radius: 10px;
   gap: 3em;
   margin-bottom: 1rem;
-}
+} */
 #quote {
   margin: 50px 0 30px 0;
-  text-align: justify;
+  text-align: center;
   color: rgb(162, 162, 162);
 }
 h2 {
@@ -80,7 +80,7 @@ textarea {
   gap: 1em;
   align-items: center;
 }
-#start-btn {
+.btn {
   background-color: rgb(255, 162, 0);
   width: fit-content;
   color: white;
@@ -92,7 +92,7 @@ textarea {
   cursor: pointer;
   text-transform: uppercase;
 }
-#start-btn:active {
+.btn:active {
   scale: 0.97;
   transition: scale ease 200ms;
 }
@@ -104,4 +104,14 @@ textarea {
 }
 #start-typing {
   display: none;
+}
+
+#restart-btn {
+  display: none;
+}
+.heading{
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 168, 80);
 }

@@ -1,6 +1,7 @@
 let speed = document.getElementById("speed");
 let timer = document.getElementById("timer");
 let quote = document.getElementById("quote");
+let restartBtn = document.getElementById("restart-btn");
 let startTyping = document.getElementById("start-typing");
 let startBtn = document.getElementById("start-btn");
 let userInput = document.getElementById("input");
@@ -58,10 +59,14 @@ const result = () => {
       quote.style.display = "none";
       startTyping.style.fontSize = "4rem";
       startTyping.innerText = "Well Done!";
+      restartBtn.style.display = "block";
     }, 2000);
   }
 };
 
 window.addEventListener("load", getQuote);
 startBtn.addEventListener("click", start);
+restartBtn.addEventListener("click", () => {
+  document.location.reload();
+});
 userInput.addEventListener("input", result);
