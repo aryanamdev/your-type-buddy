@@ -1,3 +1,7 @@
+:root {
+  --btn: #ffbf00;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +11,7 @@
 }
 body {
   font-family: Roboto;
-  background: #0f0c29; /* fallback for old browsers */
+  background: #241f4f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #24243e,
@@ -62,7 +66,7 @@ h2 {
   margin-bottom: 0.7em;
 }
 .quote h2 {
-  color: rgb(255, 162, 0);
+  color: var(--btn);
 }
 #mistakes {
   font-size: 2rem;
@@ -81,7 +85,7 @@ textarea {
   align-items: center;
 }
 .btn {
-  background-color: rgb(255, 162, 0);
+  background-color: var(--btn);
   width: fit-content;
   color: white;
   padding: 0.8em 1.6em;
@@ -109,9 +113,9 @@ textarea {
 #restart-btn {
   display: none;
 }
-.heading{
+.heading {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgb(255, 168, 80);
+  color: var(--btn);
 }

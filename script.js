@@ -1,6 +1,7 @@
 let speed = document.getElementById("speed");
 let timer = document.getElementById("timer");
 let quote = document.getElementById("quote");
+let heading = document.querySelector(".heading");
 let restartBtn = document.getElementById("restart-btn");
 let startTyping = document.getElementById("start-typing");
 let startBtn = document.getElementById("start-btn");
